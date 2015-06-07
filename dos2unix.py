@@ -3,6 +3,9 @@
 convert dos linefeeds (crlf) to unix (lf)
 usage: dos2unix.py <input> <output>
 """
+
+__version__ = "1"  # version is needed for packaging
+
 import sys
 
 if len(sys.argv[1:]) != 2:
