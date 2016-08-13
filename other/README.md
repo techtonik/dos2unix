@@ -2,6 +2,8 @@ Here are scripts for packing dos2unix for PyPI.
 
 The process:
 
+* Download latest version of pack.py to this dir
+    wget https://raw.githubusercontent.com/techtonik/python-patch/master/other/pack.py
 * Pack .zip archive
     pack.py ../dos2unix.py
 * Upload archive (manually for now)
